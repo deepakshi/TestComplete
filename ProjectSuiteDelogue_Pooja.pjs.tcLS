@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="{084da066-fa83-402b-aa82-b52dfd4f34b8}">
+				<Prp name="relpath" type="S" value="TestProject2\TestProjectHelp_Original.mds.tcLS"/>
+			</Node>
+			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
+				<Prp name="default project" type="S" value="{F55E2943-0F9C-4A06-A3EE-BA876535BB75}"/>
+			</Node>
+			<Node name="{355258a1-ce42-4f72-8143-e285a138100e}">
+				<Prp name="relpath" type="S" value="TestProjectBrand_Original\TestProjectBrand_Original.mds.tcLS"/>
+			</Node>
+			<Node name="{41d4751a-943a-4aa8-9227-0ce4ca26bf6b}">
+				<Prp name="relpath" type="S" value="TestProject1\TestProjectHelp_final.mds.tcLS"/>
+			</Node>
+			<Node name="{50bcbed9-ce64-4ed1-adc2-3d8f9ae6e370}">
+				<Prp name="relpath" type="S" value="TestProjectBrand_DataDriven\TestProjectBrand_DataDriven.mds.tcLS"/>
+			</Node>
+			<Node name="{7b4aeb34-ca0b-4c5c-a773-73d8192b91f4}">
+				<Prp name="relpath" type="S" value="TestProject_Demo\TestProject_Demo.mds.tcLS"/>
+			</Node>
+			<Node name="{f55e2943-0f9c-4a06-a3ee-ba876535bb75}">
+				<Prp name="relpath" type="S" value="TestProjectBrand_final\TestProjectBrand_final.mds.tcLS"/>
+			</Node>
+			<Node name="logs">
+				<Prp name="key" type="S" value="{F96ADE35-1075-4EBD-B359-63894EE2F8FF}"/>
+				<Prp name="relpath" type="S" value="Log"/>
+			</Node>
+			<Node name="variables"/>
+		</Node>
+		<Prp name="signature" type="S" value="{71078212-FAEB-4856-A901-B237C89E6B5C}"/>
+	</Node>
+</Nodes>
