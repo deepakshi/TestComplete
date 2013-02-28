@@ -22,7 +22,18 @@
 		<Node name="folders">
 			<Node name="folders"/>
 		</Node>
-		<Node name="logs"/>
+		<Node name="logs">
+			<Node name="log0">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="41333.715398125"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="key" type="S" value="{AF45DB03-3C26-4D4A-BDAC-96D4096E0DC8}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [AddDeleteBrand_NameMapping]"/>
+				<Prp name="relpath" type="S" value="2_28_2013_5_10 PM_10_398\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="7.0"/>
 	</Node>
